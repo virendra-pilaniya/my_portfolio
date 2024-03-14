@@ -1,3 +1,11 @@
+import connectexp from '../images/connect_with_expert.png'
+import prastuti from '../images/prastuti.png'
+import contentverse from '../images/contentverse.png'
+import todoist from '../images/todoist.png'
+import movieapp from '../images/Movie_app.png'
+import knockout from '../images/knockOut.png'
+
+
 export const Bio = {
   name: "Virendra Pilaniya",
   roles: [
@@ -204,8 +212,10 @@ export const projects = [
     date: "Jan 2024 - Feb 2024",
     description:
       "A WebApp that provides platform for Boxing lovers around the world join Live-fight rooms, and have discusion about the on-going live events",
-    image:
-      "https://private-user-images.githubusercontent.com/80153001/306409370-9e2f7d17-84fa-436b-afa2-1e6349db3b3d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTA0MTU2MzEsIm5iZiI6MTcxMDQxNTMzMSwicGF0aCI6Ii84MDE1MzAwMS8zMDY0MDkzNzAtOWUyZjdkMTctODRmYS00MzZiLWFmYTItMWU2MzQ5ZGIzYjNkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAzMTQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMzE0VDExMjIxMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTI1ZDcyYzcxN2ZhMDBlZmYyM2M1YWQzYWY3N2RjMmNiNTFlMmVjOTIzM2EwZDc3OTYyOTNjMDQ3NmQ5Y2NmMzMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.0OtHlNhaNpLvgpnYu8zBnYDLDHcmFsoxjus-0u81sI8",
+    // image:
+    //   "https://private-user-images.githubusercontent.com/80153001/306409370-9e2f7d17-84fa-436b-afa2-1e6349db3b3d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTA0MTU2MzEsIm5iZiI6MTcxMDQxNTMzMSwicGF0aCI6Ii84MDE1MzAwMS8zMDY0MDkzNzAtOWUyZjdkMTctODRmYS00MzZiLWFmYTItMWU2MzQ5ZGIzYjNkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAzMTQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMzE0VDExMjIxMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTI1ZDcyYzcxN2ZhMDBlZmYyM2M1YWQzYWY3N2RjMmNiNTFlMmVjOTIzM2EwZDc3OTYyOTNjMDQ3NmQ5Y2NmMzMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.0OtHlNhaNpLvgpnYu8zBnYDLDHcmFsoxjus-0u81sI8",
+    image: "https://github.com/virendra-pilaniya/my_portfolio/blob/gh-pages/HeroImage.jpg?raw=true",
+
     tags: [
       "React",
       "Django",
