@@ -4,7 +4,27 @@ import contentverse from '../images/contentverse.png'
 import todoist from '../images/todoist.png'
 import movieapp from '../images/Movie_app.png'
 import knockout from '../images/knockOut.png'
+import styled from "styled-components";
 
+const Img = styled.img`
+  position: relative;
+  width: 52%;
+  height: 100%;
+  max-width: 400px;
+  max-height: 400px;
+  border-radius: 50%;
+  border: 2px solid ${({ theme }) => theme.primary};
+
+  @media (max-width: 768px) {
+    max-width: 400px;
+    max-height: 400px;
+  }
+
+  @media (max-width: 640px) {
+    max-width: 280px;
+    max-height: 280px;
+  }
+`;
 
 export const Bio = {
   name: "Virendra Pilaniya",
@@ -214,7 +234,7 @@ export const projects = [
       "A WebApp that provides platform for Boxing lovers around the world join Live-fight rooms, and have discusion about the on-going live events",
     // image:
     //   "https://private-user-images.githubusercontent.com/80153001/306409370-9e2f7d17-84fa-436b-afa2-1e6349db3b3d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTA0MTU2MzEsIm5iZiI6MTcxMDQxNTMzMSwicGF0aCI6Ii84MDE1MzAwMS8zMDY0MDkzNzAtOWUyZjdkMTctODRmYS00MzZiLWFmYTItMWU2MzQ5ZGIzYjNkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAzMTQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMzE0VDExMjIxMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTI1ZDcyYzcxN2ZhMDBlZmYyM2M1YWQzYWY3N2RjMmNiNTFlMmVjOTIzM2EwZDc3OTYyOTNjMDQ3NmQ5Y2NmMzMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.0OtHlNhaNpLvgpnYu8zBnYDLDHcmFsoxjus-0u81sI8",
-    image: "https://github.com/virendra-pilaniya/my_portfolio/blob/gh-pages/HeroImage.jpg?raw=true",
+    image: "https://github.com/virendra-pilaniya/my_portfolio/blob/gh-pages/static/media/knockOut.37570c13be4b7c991d60.png?raw=true",
 
     tags: [
       "React",
@@ -236,7 +256,7 @@ export const projects = [
     description:
       "Connect-With-Expert: A React-based web app connecting juniors with expert mentors. Features include a curated list of seniors by expertise and a self-mailing system powered by Google SMTP, fostering seamless communication and guidance exchange.",
     image:
-      "https://private-user-images.githubusercontent.com/80153001/312820176-f0452c61-068f-4199-acdd-bdbab49a8e65.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTA0MTYxOTksIm5iZiI6MTcxMDQxNTg5OSwicGF0aCI6Ii84MDE1MzAwMS8zMTI4MjAxNzYtZjA0NTJjNjEtMDY4Zi00MTk5LWFjZGQtYmRiYWI0OWE4ZTY1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAzMTQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMzE0VDExMzEzOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWNmODI0OTU4YmIyYjUyMDgyMzg1ZWYyZWRiMTdhNzRjNDBjNGY0MDc4YTA3Y2VmYzdlZGQzNjAzNzg5NWFjNGMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.m613lvlEtZxI3bGniwqPLn0kVy9B4wUIL5Dhm4sxdlc",
+      "https://github.com/virendra-pilaniya/my_portfolio/blob/gh-pages/static/media/connect_with_expert.c90656c15401e60d8a0d.png?raw=true",
     tags: ["React Js", "Javascript", "HTML", "CSS", "Firebase", "Material UI"],
     category: "web app",
     github: "https://github.com/virendra-pilaniya/ConnectWithExpert",
@@ -249,7 +269,7 @@ export const projects = [
     description:
       "Introducing a Ruby on Rails CMS designed for content creation, monetization, and community engagement. This system enables seamless CRUD operations for users and posts, integrates advanced search, filtering, and post analytics for improved content performance, and incorporates user following, recommendations, and Razorpay integration for effortless content monetization.",
     image:
-      "https://private-user-images.githubusercontent.com/80153001/312828548-285ae4ce-d6eb-4b90-953a-38f929eaed8b.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTA0MTc5MTQsIm5iZiI6MTcxMDQxNzYxNCwicGF0aCI6Ii84MDE1MzAwMS8zMTI4Mjg1NDgtMjg1YWU0Y2UtZDZlYi00YjkwLTk1M2EtMzhmOTI5ZWFlZDhiLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAzMTQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMzE0VDEyMDAxNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTc5MmZmNDJmZGIwNGU4ZTBhYTJjZjAzOWQzNGEzZTc5OTc1OGFhNWY3NGI1OGFhNzYxNGVmM2VjNGU4NDlkNTgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.4MpRZ8pTbUHJt0ZUTus9KU411ygGgAZdUduhJwrvj2o",
+      "https://github.com/virendra-pilaniya/my_portfolio/blob/gh-pages/static/media/contentverse.922a120f8ddab0ffa5c6.png?raw=true",
     tags: [
       "Ruby",
       "Rails",
@@ -268,7 +288,7 @@ export const projects = [
     description:
       "Introducing a movie search app powered by the OMDB API, featuring a user-friendly interface and comprehensive functionality. Users can easily search for movies, access detailed information including duration, director name, and genre, and provide ratings and comments. The app stores ratings and comments locally using localStorage, ensuring personalized experiences across sessions. Additionally, it offers pagination with intuitive navigation buttons, enhancing the browsing experience for users.",
     image:
-      "https://private-user-images.githubusercontent.com/80153001/312830730-2c9b68d0-d923-4c3e-a25f-95f2f23ceeee.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTA0MTg0MzksIm5iZiI6MTcxMDQxODEzOSwicGF0aCI6Ii84MDE1MzAwMS8zMTI4MzA3MzAtMmM5YjY4ZDAtZDkyMy00YzNlLWEyNWYtOTVmMmYyM2NlZWVlLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAzMTQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMzE0VDEyMDg1OVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWQyOTVmOGI1Yzk3MTA1YmY4YWJkZGQ2ZmQxOWEyYTdhMjY2MWI4NmY4ZDE1YmFmZWEyNTg3Y2RkNjUxNWRlNmEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.vtc9fIxAXLZBJDItb4WL2gMIgDO5bsQLyTQtswNXY28",
+      "https://github.com/virendra-pilaniya/my_portfolio/blob/gh-pages/static/media/Movie_app.c8e9427804ffff240543.png?raw=true",
     tags: ["Javacript", "HTML", "CSS", "OMDB API"],
     category: "web app",
     github: "https://github.com/virendra-pilaniya/Movie-Listing-App",
@@ -281,7 +301,7 @@ export const projects = [
     description:
       "(Not normal todo -list)This todo list project offers a comprehensive set of features for efficient task management. Users can seamlessly add, edit, and delete tasks, mark them as done or undone, categorize them with priorities and categories, and utilize filters and sorting options for better organization. Additionally, the application supports subtasks, tags, and robust search functionalities. Tasks are stored locally for persistence, and users receive reminders for important deadlines. With activity logs and the ability to view backlogs, our application ensures users stay on top of their tasks with ease and efficiency.",
     image:
-      "https://private-user-images.githubusercontent.com/80153001/312835460-c8adaaab-0046-4b7f-8aa1-1ab63b78fb29.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTA0MTkzOTYsIm5iZiI6MTcxMDQxOTA5NiwicGF0aCI6Ii84MDE1MzAwMS8zMTI4MzU0NjAtYzhhZGFhYWItMDA0Ni00YjdmLThhYTEtMWFiNjNiNzhmYjI5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAzMTQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMzE0VDEyMjQ1NlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWZmM2Y2YWRiYzQ3ZjEzMmMyYWI0YWYzOTI5OTcwNzBhMjdjODFiYWQzZWQxNDUyMjdhMTcxZGYwOGFjMjBlZTImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.TAfCPI8K8e_T4ON5IdIOyyEql3yi_BdCfnkwY9bbFmU",
+      "https://github.com/virendra-pilaniya/my_portfolio/blob/gh-pages/static/media/todoist.ace08eaf8352bd6a65bf.png?raw=true",
     tags: ["Javacript", "HTML", "CSS"],
     category: "web app",
     github: "https://github.com/virendra-pilaniya/To-do-list",
@@ -294,7 +314,7 @@ export const projects = [
     description:
       "As the backend developer for the Meta Fest WebApp, I created a platform that enabled over 450 teams from across India to collaborate seamlessly. Using Django, I built a system for nationwide team formation, along with an Admin page for easy team management and a user dashboard for enhanced functionality. Additionally, I integrated SMTP for effective workshop communication, making the WebApp a user-friendly solution for event coordination.",
     image:
-      "https://private-user-images.githubusercontent.com/80153001/312838636-82dc9df8-1a72-4af6-bc98-7ad1f30ff4ed.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTA0MTk5OTYsIm5iZiI6MTcxMDQxOTY5NiwicGF0aCI6Ii84MDE1MzAwMS8zMTI4Mzg2MzYtODJkYzlkZjgtMWE3Mi00YWY2LWJjOTgtN2FkMWYzMGZmNGVkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAzMTQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMzE0VDEyMzQ1NlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWI4ZWEwMTM0M2UzNmNhYWZhYjJiZThjZDVlNzU1ZjI1YzhmMWZhY2IzMjdmNDBiYjMyYjU2YmI1YzU1MDZjNmYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.I_n-9HgkfQuGDPdSZ9ApRASDVGLZ56PtEufP4weZxdc",
+      "https://github.com/virendra-pilaniya/my_portfolio/blob/gh-pages/static/media/prastuti.13fb0cdbd825a45becf7.png?raw=true",
     tags: ["Django", "Python", "Axios", "HTML", "CSS"],
     category: "web app",
     github: "https://github.com/virendra-pilaniya/prastuti-meta-fest",
